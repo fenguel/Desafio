@@ -1,0 +1,84 @@
+@font-face {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/raleway/v27/1Ptxg8zYS_SKggPN4iEgvnHyvveLxVvaorCIPrcVIT9d0c8.woff) format('woff');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+
+body {
+    background-color: #e8dab2;
+    font-family: 'Raleway',sans-serif;
+
+}
+
+header {position: relative;
+    height: 100vh;
+
+
+
+}
+
+section {
+    background-color: white;
+    max-width: 800px;
+    width: 100%;
+    border-radius: 20px;
+    padding: 34px 24px 10px 24px;
+    box-shadow: 1px 5px 5px rgb(119, 119, 119);
+    font-family: 'Raleway', sans-serif;
+    position: absolute;
+    box-sizing: border-box;
+    margin-left: 50%;
+    transform: translateX(-50%);
+
+}
+
+p {
+    margin: 12px 0;
+
+}
+
+footer {
+    color: white;
+    height: 50px;
+    background-color: #090909;
+    text-align: right;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+
+
+}
+
+a {
+    color: #35b1d2;
+    text-decoration: none;
+}
+
+#fontebem {
+    font-size: 26px;
+}
+
+#titulo {
+    font-size: 26px;
+}
+
+#silhu {
+    width: 370px;
+    height: 192px;
+}
+
+.titulos {
+    font-size: 30px;
+}
+
+.media {width: 100%;
+height: 400px;
+   
+}
+
+#textofooter {padding-right: 16px;
+    margin-right: 10px;
+}
