@@ -10,14 +10,13 @@
 body {
     background-color: #e8dab2;
     font-family: 'Raleway',sans-serif;
+    margin-bottom: 30px;
 
 }
 
 header {position: relative;
     height: 100vh;
-
-
-
+    padding: 0 24px;
 }
 
 section {
@@ -33,6 +32,10 @@ section {
     margin-left: 50%;
     transform: translateX(-50%);
 
+}
+
+.pfinal {
+    margin-bottom: 50px;
 }
 
 p {
@@ -57,17 +60,29 @@ a {
     text-decoration: none;
 }
 
+.grupotitulo {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
 #fontebem {
     font-size: 26px;
+    font-style: italic;
 }
 
 #titulo {
     font-size: 26px;
+
 }
 
 #silhu {
-    width: 370px;
-    height: 192px;
+    width: 369px;
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      right: 0;
+
 }
 
 .titulos {
